@@ -1,0 +1,10 @@
+{
+  "name": "sentinelx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SentinelX SIEM & SOC Monitoring Platform",
+  "scripts": {
+    "install:frontend": "npm --prefix frontend install",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build"
+  }
+}
