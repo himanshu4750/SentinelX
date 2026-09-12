@@ -46,3 +46,5 @@ pool.query("SELECT NOW()")
 app.listen(PORT, () => {
     console.log(`SentinelX server running on port ${PORT}`);
 });
+
+module.exports = app;
